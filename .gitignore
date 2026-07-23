@@ -1,0 +1,15 @@
+# Fichiers secrets
+backend/.env
+
+# Environnement virtuel
+backend/envi2/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node modules
+frontend/node_modules/
+
+# Build React
+frontend/dist/
