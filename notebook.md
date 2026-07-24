@@ -302,3 +302,43 @@ les données sont disponibles
 ✅ Données en temps réel depuis FastAPI
 ✅ Interface complète et professionnelle
 
+## 🗓️ Session 7 — Déploiement
+
+### Ce que j'ai appris
+
+**Git**
+Système de versioning — sauvegarde l'historique du code
+git init → initialise un dépôt
+git add . → ajoute tous les fichiers
+git commit -m "..." → sauvegarde une version
+git push → envoie sur GitHub
+
+**.gitignore**
+Fichiers à ne jamais envoyer sur GitHub :
+- .env → clés secrètes
+- envi2/ → environnement virtuel
+- node_modules/ → dépendances JS
+
+**Render**
+Héberge le backend FastAPI gratuitement
+Lit requirements.txt et installe automatiquement
+Variables d'environnement = équivalent du .env
+Free tier → s'endort après 15min d'inactivité
+
+**Vercel**
+Héberge le frontend React gratuitement
+Se connecte à GitHub et déploie automatiquement
+vercel.json → configure le build
+
+**CORS en production**
+allow_origins doit contenir l'URL Vercel exacte
+Sinon le navigateur bloque la communication
+
+### Liens finaux
+Frontend → https://finadvisor-alpha.vercel.app
+Backend  → https://finadvisor-backend-7bk2.onrender.com
+GitHub   → https://github.com/wafa28022/finadvisor
+
+### Résultat
+✅ App complète déployée et accessible mondialement
+✅ 0 DT dépensé
