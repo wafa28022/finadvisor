@@ -8,7 +8,10 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://finadvisor.vercel.app"],
+    allow_origins=[
+    "http://localhost:5173",
+    "https://finadvisor-alpha.vercel.app"
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
